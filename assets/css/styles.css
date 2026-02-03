@@ -1,0 +1,96 @@
+*{
+    background-color: black;
+
+}
+
+.foot{
+    scale:30%;
+    position:absolute;bottom: 0px; right: -375px;
+}
+
+.flowers{
+    opacity: 50%;
+    position:fixed;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.flex-container{
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
+    align-items: center;
+    padding:10px;
+    gap:25px;
+}
+
+.column1{
+    width: 50%;
+}
+
+.column2{
+    width:50%;
+    max-height: fit-content;
+}
+
+
+
+  
+
+
+
+
+
+
+/*
+.crosscampus{
+    scale: 30%;
+    justify-content: baseline;flex-direction: row;
+
+}
+
+
+.flowers{
+    scale: 30%;
+}
+
+
+.library{
+    scale: 30%;
+}
+
+.lights{
+    scale: 30%;
+}
+
+.printing{
+    scale: 30%;
+}
+
+.reading{
+    scale: 30%;
+}
+
+.solidarity{
+    scale: 30%;
+}
+
+.students{
+    scale: 30%;
+}
+
+.kids{
+    scale: 30%;
+}
+
+/*-------------------------color----------------------------
+.woman{
+    scale: 30%;
+}
+
+.foot{
+    scale: 30%;
+}
